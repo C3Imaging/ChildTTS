@@ -6,4 +6,4 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 
 ### Audio Samples: 
 
-[will be updates soon] 
+[will be updated soon] 
