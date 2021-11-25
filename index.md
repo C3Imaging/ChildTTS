@@ -13,10 +13,16 @@ This is a sample page for providing audio samples.
 <table>
   <tbody>
     <tr>
-      <td style="text-align: center; width: 150px;" rowspan=2><strong>Source audio<strong></td>
-      <td style="text-align: center; width: 150px;" rowspan=2><strong>Synthetic audio<strong></td>
+      <td style="text-align: center; width: 150px;"><strong>Source audio<strong></td>
+      <td style="text-align: center; width: 150px;"><strong>Synthetic audio<strong></td>
     </tr>
+    <tr>
+      <td style="text-align: center; width: 150px;" rowspan=2><strong>myst_002109_2014-03-12_12-06-01_LS_2.1_004<strong><audio style="width: 150px;" controls="" preload="none" src="sample/myst_002109_2014-03-12_12-06-01_LS_2.1_004.wav"></audio></td>
+        <td style="text-align: center"><audio style="width: 150px;" controls="" preload="none" src="sample/myst_002109_2014-03-12_12-06-01_LS_2.1_004_syn.wav"></audio></td>
+    </tr>
+
         </tbody>
 </table>
     </h2>
     
+   
