@@ -2,8 +2,23 @@
 This is a sample page for providing audio samples. 
 
 <!DOCTYPE hvtml>
-<title> A Multispeaker Transfer Learning approach to generate synthetic child voices. </title>
-<h2>Audio Samples Comparison (Source vs Synthetic)<a name="comparison"></a></h2>
+<h1>Implementation and Initial Evaluation of TTS Pipeline and Workflow for Practical Child Speech Synthesis. </h1>
+<h2> ABSTRACT: </h2>
+<p> Speech Synthesis has come a long way as current Text-To-Speech (TTS) models can now
+generate natural human-sounding speech. However, one trend that’s been seen is that most of the TTS
+research focuses on using adult speech data and there has been very limited work done with child speech
+synthesis, primarily due to lack of child speech data available for research use. In this study, the benefit of
+finetuning adult speech-trained TTS models on small child speech datasets using a speaker verification-
+based Multi speaker TTS approach via transfer learning is demonstrated. A publicly available child speech
+dataset was cleaned to produce a smaller subset of approximately 19 hours and used in finetuning. Both
+subjective and objective evaluation were performed on our results. We used a pretrained MOSNet for
+performing the objective evaluation and we propose a MOS-like subjective evaluation method specifically
+for synthetic child speech, which is relatively easier to perform, and saves time and resources as compared
+to other Mushra-based and Crowd sourcing MOS evaluation methods. Our subjective evaluation achieved
+the MOS of 3.92 for ‘Speech Intelligibility’ and 3.85 for ‘Voice Naturalness’ and further discussion on
+other sub-categories of subjective evaluation is presented in the paper. Our trained model was able to
+synthesize child-like speech with reference audio as small as 5 seconds. </p>
+<h3>Audio Samples Comparison (Source vs Synthetic)<a name="comparison"></a></h3>
 <table>
   <tbody>
     <tr>
@@ -68,7 +83,7 @@ This is a sample page for providing audio samples.
     </tr>
     <tr>
         <td style="text-align: center; width: 150px;">myst_996228_2008-04-12_00-00-00_MS_2.1_030</td>
-        <td style="text-align: center; width: 150px;">we have been testing variables on the airplanes</td>
+        <td style="text-align: center; width: 150px;">well it was a long time ago but i think i can remember how many big steps it took</td>
         <td style="text-align: center"><audio style="width: 200px;" controls="" preload="none" src="samples/myst_996228_2008-04-12_00-00-00_MS_2.1_030.wav"></audio></td>
         <td style="text-align: center"><audio style="width: 200px;" controls="" preload="none" src="samples/myst_996228_2008-04-12_00-00-00_MS_2.1_030_syn.wav"></audio></td>    
     </tr>
