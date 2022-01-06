@@ -1,21 +1,16 @@
 <!DOCTYPE hvtml>
-<h1>Implementation and Initial Evaluation of TTS Pipeline and Workflow for Practical Child Speech Synthesis. </h1>
+<h1>A Text-to-Speech Pipeline, Evaluation Methodology and Initial Fine-Tuning Results for Child Speech Synthesis </h1>
 <h2> ABSTRACT: </h2>
-<p> Speech Synthesis has come a long way as current Text-To-Speech (TTS) models can now
-generate natural human-sounding speech. However, one trend that’s been seen is that most of the TTS
-research focuses on using adult speech data and there has been very limited work done with child speech
-synthesis, primarily due to lack of child speech data available for research use. In this study, the benefit of
-finetuning adult speech-trained TTS models on small child speech datasets using a speaker verification-
-based Multi speaker TTS approach via transfer learning is demonstrated. A publicly available child speech
-dataset was cleaned to produce a smaller subset of approximately 19 hours and used in finetuning. Both
-subjective and objective evaluation were performed on our results. We used a pretrained MOSNet for
-performing the objective evaluation and we propose a MOS-like subjective evaluation method specifically
-for synthetic child speech, which is relatively easier to perform, and saves time and resources as compared
-to other Mushra-based and Crowd sourcing MOS evaluation methods. Our subjective evaluation achieved
-the MOS of 3.92 for ‘Speech Intelligibility’ and 3.85 for ‘Voice Naturalness’ and further discussion on
-other sub-categories of subjective evaluation is presented in the paper. Our trained model was able to
-synthesize child-like speech with reference audio as small as 5 seconds. </p>
-<h3>Audio Samples Comparison (Source vs Synthetic)<a name="comparison"></a></h3>
+<p>In this study a training pipeline to fine-tune state-of-the-art (SOTA) neural text-to-speech 
+(TTS) models using child speech datasets is developed and validated. This approach adopts a multi speaker 
+TTS re-tuning workflow to provide a transfer learning pipeline. A publicly available child speech dataset 
+was cleaned to provide a smaller subset of approximately 19 hours and formed the basis of our finetuning 
+experiments. Both subjective and objective evaluations were performed using a pretrained MOSNet for 
+objective evaluation and a novel subjective framework for mean opinion score (MOS) evaluations. 
+Subjective evaluations achieved the MOS of 3.92 for ‘Speech Intelligibility’, 3.85 for ‘Voice Naturalness’ 
+and 3.96 for ‘Voice Consistency’. The final trained model is able to synthesize child-like speech from 
+reference audio samples as small as 5 seconds. </p>
+<h3>Audio Samples Comparison used in MOSNet (Source vs Synthetic)<a name="comparison"></a></h3>
 <table>
   <tbody>
     <tr>
